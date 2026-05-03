@@ -6,7 +6,7 @@
 build:
   version: "3.0"
 cards:
-  message: "Welcome to ICICI Bank Cards Production APIs"
+  message: "Welcome to ICICI Bank Cards Production APIs by Harika"
   contactDetails:
     name: "Dhayakar - Product Owner"
     email: "dhayakar.k@tmt.com"
