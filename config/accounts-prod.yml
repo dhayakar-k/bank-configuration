@@ -1,7 +1,7 @@
 build:
     version: "3.0"
 accounts:
-    message: "Welcome to ICICI Bank Accounts related PROD APIs by Dhaya"
+    message: "Welcome to ICICI Bank Accounts related webhook APIs by Dhaya"
     contactDetails:
         name: "Reina Aishwarya - Product Owner"
         email: "aishwarya@eazybank.com"
