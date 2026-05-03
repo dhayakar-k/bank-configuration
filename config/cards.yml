@@ -1,0 +1,39 @@
+#server:
+#  port: 9001
+#spring:
+#  datasource:
+#    url: jdbc:h2:mem:testdb
+#    driverClassName: org.h2.Driver
+#    username: sa
+#    password: ''
+#  h2:
+#    console:
+#      enabled: true
+#  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#  config:
+#    import:
+#      - "cards-prod.yml"
+#      - "cards-qa.yml"
+#      - "cards-staging.yml"
+#
+#  profiles:
+#    active:
+#      - "prod"
+#      - "qa"
+#      # This will activate among all three profiles, because of the order of the profiles, the last one will override
+#      # the previous ones. So, the properties in cards-staging.yml will take precedence over the properties in
+#      # cards-prod.yml and cards-qa.yml.
+#      - "staging"
+
+cards:
+  message: "Welcome to ICICI Bank Accounts local related APIs"
+  contactDetails:
+    name: "John Doe - Developer"
+    email: "eazybank@gmail.com"
+  onCallSupport:
+    - (91) 8904-1234-01
+    - (555) 8904-1234-02

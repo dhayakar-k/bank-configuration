@@ -1,0 +1,14 @@
+#spring:
+#  config:
+#    activate:
+#      on-profile: "prod"
+build:
+  version: "10.0"
+loans:
+  message: "Welcome to ICICI Bank Loans Production APIs"
+  contactDetails:
+    name: "Dhayakar - Product Owner"
+    email: "dhayakar.k@eazybank.com"
+  onCallSupport:
+    - (91) 9378-8904-32
+    - (91) 9378-8904-33

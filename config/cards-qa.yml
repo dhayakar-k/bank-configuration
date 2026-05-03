@@ -1,0 +1,15 @@
+#spring:
+#  config:
+#    activate:
+#      on-profile: "qa"
+
+build:
+  version: "5.0"
+cards:
+  message: "Welcome to ICICI Bank Cards QA APIs"
+  contactDetails:
+    name: "S Harika - QA Engineer"
+    email: "harika.s@tmt.com"
+  onCallSupport:
+    - (91) 9378-8904-45
+    - (91) 9378-8904-46

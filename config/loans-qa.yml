@@ -1,0 +1,14 @@
+#spring:
+#  config:
+#    activate:
+#      on-profile: "qa"
+build:
+  version: "11.0"
+loans:
+  message: "Welcome to ICICI Bank Loans QA APIs"
+  contactDetails:
+    name: "Naresh - Product Owner"
+    email: "naresh.k@eazybank.com"
+  onCallSupport:
+    - (91) 9378-8904-90
+    - (91) 9378-8904-97

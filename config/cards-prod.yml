@@ -1,0 +1,15 @@
+#spring:
+#  config:
+#    activate:
+#      on-profile: "prod"
+
+build:
+  version: "3.0"
+cards:
+  message: "Welcome to ICICI Bank Cards Production APIs"
+  contactDetails:
+    name: "Dhayakar - Product Owner"
+    email: "dhayakar.k@tmt.com"
+  onCallSupport:
+    - (91) 9378-8904-32
+    - (91) 9378-8904-33

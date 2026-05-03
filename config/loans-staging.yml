@@ -1,0 +1,14 @@
+#spring:
+#  config:
+#    activate:
+#      on-profile: "staging"
+build:
+    version: "12.0"
+loans:
+  message: "Welcome to ICICI Bank Loans Staging APIs"
+  contactDetails:
+    name: "Ramesh - Product Owner"
+    email: "ramesh.n@eazybank.com"
+  onCallSupport:
+    - (91) 9378-8904-11
+    - (91) 9378-8904-12

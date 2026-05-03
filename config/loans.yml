@@ -1,0 +1,34 @@
+#server:
+#  port: 8090
+#spring:
+#  datasource:
+#    url: jdbc:h2:mem:testdb
+#    driverClassName: org.h2.Driver
+#    username: sa
+#    password: ''
+#  h2:
+#    console:
+#      enabled: true
+#  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#  config:
+#    import:
+#      - "loans-prod.yml"
+#      - "loans-qa.yml"
+#      - "loans-staging.yml"
+#  profiles:
+#    active:
+#      - "prod"
+#      - "qa"
+#      - "staging"
+loans:
+  message: "Welcome to ICICI Bank Accounts local related APIs"
+  contactDetails:
+    name: "John Doe - Developer"
+    email: "eazybank@gmail.com"
+  onCallSupport:
+    - (91) 8904-1234-01
+    - (555) 8904-1234-02

@@ -1,0 +1,14 @@
+#spring:
+#  config:
+#    activate:
+#      on-profile: "staging"
+build:
+    version: "7.0"
+cards:
+    message: "Welcome to ICICI Bank Cards Staging APIs"
+    contactDetails:
+        name: "Raghupathi - Product Owner"
+        email: "raghupathi.k@oracle.com"
+    onCallSupport:
+        -(91) 9378-8904-70
+        -(91) 9378-8904-71
